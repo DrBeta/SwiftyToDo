@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ContentView : View {
     var names = ["John", "Colleen", "Brian", "Gene", "Deborah"]
-    
+    @State var showingAlert = false
     var body: some View {
         NavigationView {
             List {
@@ -19,11 +19,13 @@ struct ContentView : View {
             }
             .navigationBarItems(trailing:
                 Button(action: {
-                    print("Help tapped!")
+                   self.showingAlert = true
                 }) {
-                    Image(systemName: "plus.circle.fill")
+                    Image(systemName: "plus.circle")
                         .font(.largeTitle)
-            }) .navigationBarTitle(Text("To-Do ✅"))
+                } .presentation($showingAlert) {
+                    Alert(title: Text("Add a new Task"), message: Text("Hi, I !"), dismissButton: .default(Text("Got it!")))
+            }) .navigationBarTitle(Text("To-Do ✓"))
         }
     }
 }
