@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE36C16E22DA676F00536308 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE36C16D22DA676F00536308 /* AddItemView.swift */; };
 		EE8A12FD22DA5BF70019D4F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8A12FC22DA5BF70019D4F6 /* AppDelegate.swift */; };
 		EE8A12FF22DA5BF70019D4F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8A12FE22DA5BF70019D4F6 /* SceneDelegate.swift */; };
 		EE8A130122DA5BF70019D4F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8A130022DA5BF70019D4F6 /* ContentView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE36C16D22DA676F00536308 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
 		EE8A12F922DA5BF70019D4F6 /* SwiftyToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE8A12FC22DA5BF70019D4F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE8A12FE22DA5BF70019D4F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				EE8A12FC22DA5BF70019D4F6 /* AppDelegate.swift */,
 				EE8A12FE22DA5BF70019D4F6 /* SceneDelegate.swift */,
 				EE8A131022DA5C100019D4F6 /* RowView.swift */,
+				EE36C16D22DA676F00536308 /* AddItemView.swift */,
 				EE8A130022DA5BF70019D4F6 /* ContentView.swift */,
 				EE8A130222DA5BF90019D4F6 /* Assets.xcassets */,
 				EE8A130722DA5BF90019D4F6 /* LaunchScreen.storyboard */,
@@ -153,6 +156,7 @@
 				EE8A12FF22DA5BF70019D4F6 /* SceneDelegate.swift in Sources */,
 				EE8A130122DA5BF70019D4F6 /* ContentView.swift in Sources */,
 				EE8A131122DA5C100019D4F6 /* RowView.swift in Sources */,
+				EE36C16E22DA676F00536308 /* AddItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
