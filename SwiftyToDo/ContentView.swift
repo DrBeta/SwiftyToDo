@@ -9,24 +9,23 @@
 import SwiftUI
 
 struct ContentView : View {
-    var names = ["John", "Colleen", "Brian", "Gene", "Deborah"]
-    @State var showingAlert = false
+   
+    @State var draftTitle: String = ""
+    @State var isEditing: Bool = false
     var body: some View {
         NavigationView {
+            
             List {
-                RowView(title: names[0])
-                RowView(title: names[1])
-            }
-            .navigationBarItems(trailing:
-                Button(action: {
-                   self.showingAlert = true
-                }) {
-                    Image(systemName: "plus.circle")
-                        .font(.largeTitle)
-                } .presentation($showingAlert) {
-                    Alert(title: Text("Add a new Task"), message: Text("Hi, I !"), dismissButton: .default(Text("Got it!")))
-            }) .navigationBarTitle(Text("To-Do ✓"))
+                TextField("Enter your name", text: $draftTitle, onCommit: self.addTask)
+                
+
+               
+                }
+             .navigationBarTitle(Text(draftTitle))
         }
+    }
+    func addTask() {
+        print("Commit")
     }
 }
 
