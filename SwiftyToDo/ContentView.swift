@@ -21,7 +21,7 @@ struct ContentView : View {
 
                
                 }
-             .navigationBarTitle(Text(draftTitle))
+             .navigationBarTitle(Text("ToDo ✓"))
         }
     }
     func addTask() {
