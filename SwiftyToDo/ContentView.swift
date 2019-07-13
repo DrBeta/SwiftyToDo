@@ -8,15 +8,16 @@
 
 import SwiftUI
 
-struct ContentView : View {
-   
+struct TaskListView : View {
+    @EnvironmentObject var userData: UserData
+
     @State var draftTitle: String = ""
     @State var isEditing: Bool = false
     var body: some View {
         NavigationView {
             
             List {
-                TextField("Enter your name", text: $draftTitle, onCommit: self.addTask)
+                TextField("Enter the name of your new task", text: $draftTitle, onCommit: self.addTask)
                 
 
                
@@ -24,15 +25,15 @@ struct ContentView : View {
              .navigationBarTitle(Text("ToDo ✓"))
         }
     }
-    func addTask() {
-        print("Commit")
+    private func addTask() {
+
     }
 }
 
-#if DEBUG
-struct ContentView_Previews : PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
-#endif
+//#if DEBUG
+//struct ContentView_Previews : PreviewProvider {
+//    static var previews: some View {
+//        ContentView()
+//    }
+//}
+//#endif

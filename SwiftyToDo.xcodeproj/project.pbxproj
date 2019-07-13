@@ -14,6 +14,9 @@
 		EE8A130622DA5BF90019D4F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE8A130522DA5BF90019D4F6 /* Preview Assets.xcassets */; };
 		EE8A130922DA5BF90019D4F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8A130722DA5BF90019D4F6 /* LaunchScreen.storyboard */; };
 		EE8A131122DA5C100019D4F6 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8A131022DA5C100019D4F6 /* RowView.swift */; };
+		EE96F61122DA926D00540FEF /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE96F61022DA926D00540FEF /* UserData.swift */; };
+		EE96F61322DA928E00540FEF /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE96F61222DA928E00540FEF /* Task.swift */; };
+		EE96F61522DA92D100540FEF /* UserDefaultValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE96F61422DA92D100540FEF /* UserDefaultValue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		EE8A130822DA5BF90019D4F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE8A130A22DA5BF90019D4F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE8A131022DA5C100019D4F6 /* RowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		EE96F61022DA926D00540FEF /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		EE96F61222DA928E00540FEF /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		EE96F61422DA92D100540FEF /* UserDefaultValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultValue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				EE8A130722DA5BF90019D4F6 /* LaunchScreen.storyboard */,
 				EE8A130A22DA5BF90019D4F6 /* Info.plist */,
 				EE8A130422DA5BF90019D4F6 /* Preview Content */,
+				EE96F61022DA926D00540FEF /* UserData.swift */,
+				EE96F61422DA92D100540FEF /* UserDefaultValue.swift */,
+				EE96F61222DA928E00540FEF /* Task.swift */,
 			);
 			path = SwiftyToDo;
 			sourceTree = "<group>";
@@ -149,9 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE96F61522DA92D100540FEF /* UserDefaultValue.swift in Sources */,
 				EE8A12FD22DA5BF70019D4F6 /* AppDelegate.swift in Sources */,
 				EE8A12FF22DA5BF70019D4F6 /* SceneDelegate.swift in Sources */,
 				EE8A130122DA5BF70019D4F6 /* ContentView.swift in Sources */,
+				EE96F61122DA926D00540FEF /* UserData.swift in Sources */,
+				EE96F61322DA928E00540FEF /* Task.swift in Sources */,
 				EE8A131122DA5C100019D4F6 /* RowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
