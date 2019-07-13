@@ -23,7 +23,7 @@ struct ContentView : View {
                 }) {
                     Image(systemName: "plus.circle.fill")
                         .font(.largeTitle)
-            }) .navigationBarTitle(Text("To-Do ✔️"))
+            }) .navigationBarTitle(Text("To-Do ✅"))
         }
     }
 }
